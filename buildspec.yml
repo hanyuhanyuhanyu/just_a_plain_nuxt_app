@@ -1,9 +1,9 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - sudo apt-get update && sudo apt-get -y install nodejs npm
+  #  install:
+  #    commands:
+  #      - sudo apt-get update && sudo apt-get -y install nodejs npm
   pre_build:
     commands:
       - npm i -y
